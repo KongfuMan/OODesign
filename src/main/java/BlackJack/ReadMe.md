@@ -1,4 +1,4 @@
-#1.Clarify
+# 1.Clarify
 
 ## 1.1 what
   Deck Player Dealer  Hand Card Suit 
