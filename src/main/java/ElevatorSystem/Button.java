@@ -1,5 +1,7 @@
 package ElevatorSystem;
 
+import ElevatorSystem.HandleRequestStrategy.InvalidInternalRequestException;
+
 public class Button {
     private int level;
     private Elevator elevator;
@@ -9,7 +11,7 @@ public class Button {
         this.elevator = elevator;
     }
 
-    public void pressButton(){
+    public void pressButton() throws InvalidInternalRequestException {
         InternalRequest req = new InternalRequest(level);
         elevator.handleInternalRequest(req);
     }

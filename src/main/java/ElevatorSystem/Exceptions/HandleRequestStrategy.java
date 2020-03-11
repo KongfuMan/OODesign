@@ -1,4 +1,4 @@
-package ElevatorSystem.HandleRequestStrategy;
+package ElevatorSystem.Exceptions;
 
 import ElevatorSystem.Elevator;
 import ElevatorSystem.ExternalRequest;
@@ -6,5 +6,5 @@ import ElevatorSystem.ExternalRequest;
 import java.util.List;
 
 public interface HandleRequestStrategy {
-    void handleRequest(ExternalRequest req, List<Elevator> elevators);
+    Elevator handleRequest(ExternalRequest req, List<Elevator> elevators);
 }

@@ -1,14 +1,23 @@
 package ElevatorSystem;
 
+import ElevatorSystem.HandleRequestStrategy.ExceedsMaxWeightException;
+import ElevatorSystem.HandleRequestStrategy.InvalidInternalRequestException;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.PriorityQueue;
 
+import static ElevatorSystem.Status.*;
+
 public class Elevator {
+    private final int MAX_WEIGHT = 1000;
+
     private List<Button> buttons;
     private PriorityQueue<Integer> upStops;
     private PriorityQueue<Integer> downStops;
     private int currLevel;
+    private int MAX_LEVEL;
+    private int MIN_LEVEL;
     private Status status;
 
     public Elevator(int total, int currLevel){
@@ -36,29 +45,88 @@ public class Elevator {
 
     // use case 3: take internal request
     // add the requested level to stop list
-    public void handleInternalRequest(InternalRequest request){
-
+    public void handleInternalRequest(InternalRequest request) throws InvalidInternalRequestException {
+        if (!isInternalRequestValid(request)){
+            throw new InvalidInternalRequestException();
+        }
     }
 
 
-    // use case 4: Open gate
+    /** use case 4: Stop and Open gate
+     * if status is down,
+     *
+     *
+    */
     public void openGate(){
-
+        if (status == DOWN){
+            downStops.poll();
+        }else if (status == UP){
+            upStops.poll();
+        }
     }
 
-    // use case 5: Close gate
-    public void closeGate(){
-
+    private void move(int level){
+        currLevel = level;
     }
 
+    /** use case 5: Close gate
+     *
+     *
+    */
+    public void closeGate() throws ExceedsMaxWeightException {
+        if (!checkWeight()){
+            throw new ExceedsMaxWeightException();
+        }
+        if (status == UP){
+            if (upStops.size() != 0){
+                // move to the upStops.poll()
+                move(upStops.peek());
+            }else if (downStops.size() != 0){
+                status = DOWN;
+                //move the the downStops.poll();
+                move(downStops.peek());
+            }else{
+                status = IDLE;
+            }
+        }else if (status == DOWN){
+            if (downStops.size() != 0){
+                // move to the downStops.poll();
+                move(downStops.peek());
+            }else if (upStops.size() != 0){
+                status = UP;
+                // move to the upStops.poll();
+                move(upStops.peek());
+            }else{
+                status = IDLE;
+            }
+        }else{
+            if (upStops.size() != 0){
+                status = UP;
+                //move the upStops.poll();
+                move(upStops.peek());
+            }else if (downStops.size() != 0){
+                status = DOWN;
+                // move to the downStops.poll();
+                move(downStops.peek());
+            }
+        }
+    }
+
+    /**
+     * user can not request lower level if elevator is going up
+     *                      upper level if                   down
+     * */
     private boolean isInternalRequestValid(InternalRequest req){
         if (status == Status.UP && req.getLevel() < currLevel){
             return false;
         }
-        if (status == Status.DOWN && req.getLevel() > currLevel){
+        if (status == DOWN && req.getLevel() > currLevel){
             return  false;
         }
         return true;
     }
 
+    private boolean checkWeight(){
+        return true;
+    }
 }
