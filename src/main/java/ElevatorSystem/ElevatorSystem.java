@@ -10,9 +10,9 @@ public class ElevatorSystem {
     private List<Elevator> elevators;
     private HandleRequestStrategy strategy;
 
-    public ElevatorSystem(int totalLevel){
-        elevators = new ArrayList<>();
-        elevators.add(new Elevator(totalLevel,1));
+    public ElevatorSystem(List<Elevator> elevators){
+        this.elevators = elevators;
+//        elevators.add(new Elevator(totalLevel,1));
         strategy = new RandomHandleRequestStrategy();
     }
 

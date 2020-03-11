@@ -10,6 +10,13 @@ import java.util.PriorityQueue;
 
 import static ElevatorSystem.Status.*;
 
+/**
+ * This is actually the elevator controller that controls the elevator bus.
+ *
+ * There should be a while loop that drives the move of elevator
+ * Multi threads is not considered in this class
+ *
+ * */
 public class Elevator {
     private final int MAX_WEIGHT = 1000;
 
@@ -31,30 +38,35 @@ public class Elevator {
         status = Status.IDLE;
         // 这里需要ElevatorSystem进行调用，它先指挥该Elevator到达指定楼层，然后设置currLevel;
         this.currLevel = currLevel;
+        MAX_LEVEL = total;
+        MIN_LEVEL = 1;
     }
 
-    // use case 2: take external request
-    // add the request level to corresponding stop list
+    /** use case 2: take external request with a direction
+        add the request level to corresponding stop list
+     */
     public void handleExternalRequest(ExternalRequest request){
-        int reqLevel = request.getLevel();
+        int reqLevel = request.getCurrenLevel();
         if (request.getDir() == Direction.UP){
-            upStops.add(reqLevel);
+            upStops.offer(reqLevel);
         }else{
-            downStops.add(reqLevel);
+            downStops.offer(reqLevel);
         }
     }
 
-    // use case 3: take internal request
-    // add the requested level to stop list
+    /** use case 3: take internal request
+     *
+     *  add the requested destination level to stop list
+    */
     public void handleInternalRequest(InternalRequest request) throws InvalidInternalRequestException {
         if (!isInternalRequestValid(request)){
             throw new InvalidInternalRequestException();
         }
         if (status == UP){
-            upStops.offer(request.getLevel());
+            upStops.offer(request.getDestinationLevel());
         }
         if (status == DOWN){
-            downStops.offer(request.getLevel());
+            downStops.offer(request.getDestinationLevel());
         }
     }
 
@@ -127,10 +139,10 @@ public class Elevator {
      *                      upper level if                   down
      * */
     private boolean isInternalRequestValid(InternalRequest req){
-        if (status == Status.UP && req.getLevel() < currLevel){
+        if (status == Status.UP && req.getDestinationLevel() < currLevel){
             return false;
         }
-        if (status == DOWN && req.getLevel() > currLevel){
+        if (status == DOWN && req.getDestinationLevel() > currLevel){
             return  false;
         }
         return true;
@@ -138,5 +150,9 @@ public class Elevator {
 
     private boolean checkWeight(){
         return true;
+    }
+
+    public int getCurrLevel(){
+        return currLevel;
     }
 }

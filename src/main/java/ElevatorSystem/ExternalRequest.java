@@ -1,18 +1,19 @@
 package ElevatorSystem;
 
-public class ExternalRequest extends Request {
+public class ExternalRequest {
     private Direction dir;
+    private int currLevel;
 
-    public ExternalRequest(int level, Direction dir){
-        super(level);
+    public ExternalRequest(int currLevel, Direction dir){
         this.dir = dir;
+        this.currLevel = currLevel;
     }
 
     public Direction getDir() {
         return dir;
     }
 
-    public void setDir(Direction dir) {
-        this.dir = dir;
+    public int getCurrenLevel() {
+        return currLevel;
     }
 }

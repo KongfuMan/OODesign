@@ -1,7 +1,12 @@
 package ElevatorSystem;
 
-public class InternalRequest extends Request {
-    public InternalRequest(int level){
-        super(level);
+public class InternalRequest {
+    private int destination;
+    public InternalRequest(int destination){
+        this.destination = destination;
+    }
+
+    public int getDestinationLevel() {
+        return destination;
     }
 }
