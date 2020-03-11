@@ -1,7 +1,8 @@
 package ElevatorSystem;
 
-import ElevatorSystem.HandleRequestStrategy.ExceedsMaxWeightException;
-import ElevatorSystem.HandleRequestStrategy.InvalidInternalRequestException;
+import ElevatorSystem.Exceptions.ExceedsMaxWeightException;
+import ElevatorSystem.Exceptions.IllegalLevelException;
+import ElevatorSystem.Exceptions.InvalidInternalRequestException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,6 +50,12 @@ public class Elevator {
         if (!isInternalRequestValid(request)){
             throw new InvalidInternalRequestException();
         }
+        if (status == UP){
+            upStops.offer(request.getLevel());
+        }
+        if (status == DOWN){
+            downStops.offer(request.getLevel());
+        }
     }
 
 
@@ -65,7 +72,10 @@ public class Elevator {
         }
     }
 
-    private void move(int level){
+    private void move(int level) throws IllegalLevelException {
+        if (level < MIN_LEVEL || level > MAX_LEVEL){
+            throw new IllegalLevelException();
+        }
         currLevel = level;
     }
 
@@ -73,7 +83,7 @@ public class Elevator {
      *
      *
     */
-    public void closeGate() throws ExceedsMaxWeightException {
+    public void closeGate() throws ExceedsMaxWeightException, IllegalLevelException {
         if (!checkWeight()){
             throw new ExceedsMaxWeightException();
         }

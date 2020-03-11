@@ -1,4 +1,4 @@
-package ElevatorSystem.HandleRequestStrategy;
+package ElevatorSystem.Exceptions;
 
 public class ExceedsMaxWeightException extends Exception {
 }

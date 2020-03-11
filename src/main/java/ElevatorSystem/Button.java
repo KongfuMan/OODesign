@@ -1,6 +1,6 @@
 package ElevatorSystem;
 
-import ElevatorSystem.HandleRequestStrategy.InvalidInternalRequestException;
+import ElevatorSystem.Exceptions.InvalidInternalRequestException;
 
 public class Button {
     private int level;

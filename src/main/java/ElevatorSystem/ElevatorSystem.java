@@ -1,11 +1,10 @@
 package ElevatorSystem;
 
-import ElevatorSystem.Exceptions.HandleRequestStrategy;
-import ElevatorSystem.Exceptions.RandomHandleRequestStrategy;
+import ElevatorSystem.HandleRequestStrategy.HandleRequestStrategy;
+import ElevatorSystem.HandleRequestStrategy.RandomHandleRequestStrategy;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class ElevatorSystem {
     private List<Elevator> elevators;
@@ -26,6 +25,6 @@ public class ElevatorSystem {
     // assign an elevator and sent the request to the elevator
     public void handleExternalRequest(ExternalRequest request){
          Elevator elevator = strategy.handleRequest(request, elevators);
-        elevator.handleExternalRequest(request);
+         elevator.handleExternalRequest(request);
     }
 }

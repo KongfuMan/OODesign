@@ -1,4 +1,4 @@
-package ElevatorSystem.Exceptions;
+package ElevatorSystem.HandleRequestStrategy;
 
 import ElevatorSystem.Elevator;
 import ElevatorSystem.ExternalRequest;

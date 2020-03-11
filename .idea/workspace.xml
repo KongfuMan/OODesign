@@ -2,38 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d48ddfd-f284-44b8-8767-e4e218c56b88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ElevatorSystem/HandleRequestStrategy/ExceedsMaxWeightException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ElevatorSystem/HandleRequestStrategy/InvalidInternalRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HotelReservation/Hotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HotelReservation/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HotelReservation/Reservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VendingMachine/Exception/NotEnoughMoneyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VendingMachine/Exception/UnknownItemInforamtionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VendingMachine/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VendingMachine/ItemInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VendingMachine/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VendingMachine/VendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ElevatorSystem/ElevatorSystemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ElevatorSystem/Exceptions/IllegalLevelException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ElevatorSystem/HandleRequestStrategy/PeakHourRequestStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ElevatorSystem/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ElevatorSystem/Button.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ElevatorSystem/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ElevatorSystem/Direction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ElevatorSystem/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ElevatorSystem/Elevator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ElevatorSystem/ElevatorSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ElevatorSystem/ElevatorSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ElevatorSystem/HandleRequestStrategy/HandleRequestStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ElevatorSystem/Exceptions/HandleRequestStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ElevatorSystem/HandleRequestStrategy/RandomHandleRequestStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ElevatorSystem/Exceptions/RandomHandleRequestStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ElevatorSystem/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ElevatorSystem/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ElevatorSystem/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ElevatorSystem/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/VendingMachine/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VendingMachine/Coin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ElevatorSystem/Exceptions/HandleRequestStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ElevatorSystem/HandleRequestStrategy/HandleRequestStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ElevatorSystem/Exceptions/RandomHandleRequestStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ElevatorSystem/HandleRequestStrategy/RandomHandleRequestStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ElevatorSystem/ExternalRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ElevatorSystem/ExternalRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ElevatorSystem/HandleRequestStrategy/ExceedsMaxWeightException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ElevatorSystem/Exceptions/ExceedsMaxWeightException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ElevatorSystem/HandleRequestStrategy/InvalidInternalRequestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ElevatorSystem/Exceptions/InvalidInternalRequestException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ElevatorSystem/InternalRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ElevatorSystem/InternalRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ElevatorSystem/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ElevatorSystem/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ElevatorSystem/ElevatorSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ElevatorSystem/ElevatorSystemTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -56,36 +38,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/Elevator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="109" column="37" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="37" />
+            <state relative-caret-position="-595">
+              <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1990#1991#0" expanded="true" />
-                <element signature="e#2016#2017#0" expanded="true" />
-                <element signature="e#3431#3432#0" expanded="true" />
-                <element signature="e#3458#3459#0" expanded="true" />
+                <element signature="e#3872#3873#0" expanded="true" />
+                <element signature="e#3899#3900#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/Button.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/Exceptions/IllegalLevelException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="44">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BlackJack/DeckTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/Exceptions/InvalidInternalRequestException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/HandleRequestStrategy/PeakHourRequestStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/HandleRequestStrategy/RandomHandleRequestStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/HandleRequestStrategy/HandleRequestStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/Exceptions/ExceedsMaxWeightException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/ElevatorSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ElevatorSystem/ElevatorSystemTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,63 +141,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/Exceptions/RandomHandleRequestStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/Exceptions/HandleRequestStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/HandleRequestStrategy/InvalidInternalRequestException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/HandleRequestStrategy/ExceedsMaxWeightException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/ElevatorSystem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ElevatorSystem/ElevatorSystemTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -167,8 +149,8 @@
         <option value="Interface" />
         <option value="Enum" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -183,9 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/TicTacToe/Exceptions/PlayerWinException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TicTacToe/Exceptions/DrawGameException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TicTacToe/TicTacToe.java" />
         <option value="$PROJECT_DIR$/src/main/java/TicTacToe/Exceptions/PositionAlreadyBeenTakenException.java" />
         <option value="$PROJECT_DIR$/src/main/java/TicTacToe/Exceptions/GridOccupiedException.java" />
         <option value="$PROJECT_DIR$/src/main/java/TicTacToe/Player.java" />
@@ -202,8 +181,6 @@
         <option value="$PROJECT_DIR$/src/main/java/BlackJack/Value.java" />
         <option value="$USER_HOME$/Desktop/subject1 2/subject-1-docs/1.1.3-œﬂ≥Ã÷–÷π-◊ ¡œ∞¸/Demo3.java" />
         <option value="$PROJECT_DIR$/src/main/java/BlackJack/Suit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ElevatorSystem/Request.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ElevatorSystem/ExternalRequest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/BlackJack/DeckTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -229,11 +206,16 @@
         <option value="$PROJECT_DIR$/src/main/java/ElevatorSystem/HandleRequestStrategy/InvalidInternalRequestException.java" />
         <option value="$PROJECT_DIR$/src/main/java/ElevatorSystem/Status.java" />
         <option value="$PROJECT_DIR$/src/main/java/ElevatorSystem/Button.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ElevatorSystem/ElevatorSystemTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ElevatorSystem/Exceptions/HandleRequestStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/ElevatorSystem/Exceptions/RandomHandleRequestStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ElevatorSystem/ExternalRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ElevatorSystem/Request.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ElevatorSystem/InternalRequest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ElevatorSystem/ElevatorSystemTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ElevatorSystem/ElevatorSystem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ElevatorSystem/HandleRequestStrategy/IllegalLevelException.java" />
         <option value="$PROJECT_DIR$/src/main/java/ElevatorSystem/Elevator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ElevatorSystem/HandleRequestStrategy/PeakHourRequestStrategy.java" />
       </list>
     </option>
   </component>
@@ -294,7 +276,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ElevatorSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
+              <item name="HandleRequestStrategy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Elementary" type="b2602c69:ProjectViewProjectNode" />
@@ -368,7 +350,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -537,7 +519,7 @@
     <frame x="0" y="23" width="1920" height="993" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17199148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20766774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -550,7 +532,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32871014" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3407325" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.28523862" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.28294036" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -576,22 +558,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ChineseChess/ReadMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="143">
-            <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BlackJack/Value.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -872,31 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/InternalRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="28" />
-          <folding>
-            <element signature="e#109#110#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/ExternalRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/Direction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -911,27 +852,6 @@
             <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/HandleRequestStrategy/ExceedsMaxWeightException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/HandleRequestStrategy/InvalidInternalRequestException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/Status.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -952,47 +872,114 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/ExternalRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/InternalRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ElevatorSystem/ElevatorSystemTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        <state relative-caret-position="308">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/Exceptions/HandleRequestStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/Exceptions/RandomHandleRequestStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/ElevatorSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="110">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/Elevator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="109" column="37" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="37" />
+        <state relative-caret-position="-595">
+          <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1990#1991#0" expanded="true" />
-            <element signature="e#2016#2017#0" expanded="true" />
-            <element signature="e#3431#3432#0" expanded="true" />
-            <element signature="e#3458#3459#0" expanded="true" />
+            <element signature="e#3872#3873#0" expanded="true" />
+            <element signature="e#3899#3900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/HandleRequestStrategy/RandomHandleRequestStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/HandleRequestStrategy/HandleRequestStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/Exceptions/ExceedsMaxWeightException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/Exceptions/IllegalLevelException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/Exceptions/InvalidInternalRequestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ElevatorSystem/HandleRequestStrategy/PeakHourRequestStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1000,6 +987,29 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -1018,6 +1028,19 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>test|Elementary</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
