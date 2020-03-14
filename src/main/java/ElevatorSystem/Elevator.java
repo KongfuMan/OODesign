@@ -12,11 +12,10 @@ import static ElevatorSystem.Status.*;
 
 /**
  * This is actually the elevator controller that controls the elevator bus.
- *
+ * <p>
  * There should be a while loop that drives the move of elevator
  * Multi threads is not considered in this class
- *
- * */
+ */
 public class Elevator {
     private final int MAX_WEIGHT = 1000;
 
@@ -28,13 +27,13 @@ public class Elevator {
     private int MIN_LEVEL;
     private Status status;
 
-    public Elevator(int total, int currLevel){
+    public Elevator(int total, int currLevel) {
         buttons = new ArrayList<>();
-        for (int i = 1;  i <= total; i++){
+        for (int i = 1; i <= total; i++) {
             buttons.add(new Button(i + 1, this));
         }
         upStops = new PriorityQueue<>();
-        downStops = new PriorityQueue<>((a,b)->Integer.compare(b,a));
+        downStops = new PriorityQueue<>((a, b) -> Integer.compare(b, a));
         status = Status.IDLE;
         // 这里需要ElevatorSystem进行调用，它先指挥该Elevator到达指定楼层，然后设置currLevel;
         this.currLevel = currLevel;
@@ -42,91 +41,91 @@ public class Elevator {
         MIN_LEVEL = 1;
     }
 
-    /** use case 2: take external request with a direction
-        add the request level to corresponding stop list
+    /**
+     * use case 2: take external request with a direction
+     * add the request level to corresponding stop list
      */
-    public void handleExternalRequest(ExternalRequest request){
+    public void handleExternalRequest(ExternalRequest request) {
         int reqLevel = request.getCurrenLevel();
-        if (request.getDir() == Direction.UP){
+        if (request.getDir() == Direction.UP) {
             upStops.offer(reqLevel);
-        }else{
+        } else {
             downStops.offer(reqLevel);
         }
     }
 
-    /** use case 3: take internal request
-     *
-     *  add the requested destination level to stop list
-    */
+    /**
+     * use case 3: take internal request
+     * <p>
+     * add the requested destination level to stop list
+     */
     public void handleInternalRequest(InternalRequest request) throws InvalidInternalRequestException {
-        if (!isInternalRequestValid(request)){
+        if (!isInternalRequestValid(request)) {
             throw new InvalidInternalRequestException();
         }
-        if (status == UP){
+        if (status == UP) {
             upStops.offer(request.getDestinationLevel());
         }
-        if (status == DOWN){
+        if (status == DOWN) {
             downStops.offer(request.getDestinationLevel());
         }
     }
 
 
-    /** use case 4: Stop and Open gate
+    /**
+     * use case 4: Stop and Open gate
      * if status is down,
-     *
-     *
-    */
-    public void openGate(){
-        if (status == DOWN){
+     */
+    public void openGate() {
+        if (status == DOWN) {
             downStops.poll();
-        }else if (status == UP){
+        } else if (status == UP) {
             upStops.poll();
         }
     }
 
     private void move(int level) throws IllegalLevelException {
-        if (level < MIN_LEVEL || level > MAX_LEVEL){
+        if (level < MIN_LEVEL || level > MAX_LEVEL) {
             throw new IllegalLevelException();
         }
         currLevel = level;
     }
 
-    /** use case 5: Close gate
-     *
-     *
-    */
+    /**
+     * use case 5: Close gate
+     */
     public void closeGate() throws ExceedsMaxWeightException, IllegalLevelException {
-        if (!checkWeight()){
+        if (!checkWeight()) {
             throw new ExceedsMaxWeightException();
         }
-        if (status == UP){
-            if (upStops.size() != 0){
+        if (status == UP) {
+            if (upStops.size() != 0) {
                 // move to the upStops.poll()
                 move(upStops.peek());
-            }else if (downStops.size() != 0){
+            } else if (downStops.size() != 0) {
                 status = DOWN;
                 //move the the downStops.poll();
                 move(downStops.peek());
-            }else{
+            } else {
                 status = IDLE;
             }
-        }else if (status == DOWN){
-            if (downStops.size() != 0){
+        } else if (status == DOWN) {
+            if (downStops.size() != 0) {
                 // move to the downStops.poll();
                 move(downStops.peek());
-            }else if (upStops.size() != 0){
+            } else if (upStops.size() != 0) {
                 status = UP;
                 // move to the upStops.poll();
                 move(upStops.peek());
-            }else{
+            } else {
                 status = IDLE;
             }
-        }else{
-            if (upStops.size() != 0){
+        } else {
+            if (upStops.size() != 0) {
                 status = UP;
                 //move the upStops.poll();
                 move(upStops.peek());
-            }else if (downStops.size() != 0){
+            } else if (downStops.size() != 0) {
                 status = DOWN;
                 // move to the downStops.poll();
                 move(downStops.peek());
@@ -136,23 +135,23 @@ public class Elevator {
 
     /**
      * user can not request lower level if elevator is going up
-     *                      upper level if                   down
-     * */
-    private boolean isInternalRequestValid(InternalRequest req){
-        if (status == Status.UP && req.getDestinationLevel() < currLevel){
+     * upper level if                   down
+     */
+    private boolean isInternalRequestValid(InternalRequest req) {
+        if (status == Status.UP && req.getDestinationLevel() < currLevel) {
             return false;
         }
-        if (status == DOWN && req.getDestinationLevel() > currLevel){
-            return  false;
+        if (status == DOWN && req.getDestinationLevel() > currLevel) {
+            return false;
         }
         return true;
     }
 
-    private boolean checkWeight(){
+    private boolean checkWeight() {
         return true;
     }
 
-    public int getCurrLevel(){
+    public int getCurrLevel() {
         return currLevel;
     }
 }
