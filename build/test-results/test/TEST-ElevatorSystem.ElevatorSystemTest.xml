@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ElevatorSystem.ElevatorSystemTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-11T03:20:45" hostname="chenliangdeMacBook-Pro.local" time="0.014">
+<testsuite name="ElevatorSystem.ElevatorSystemTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-14T16:44:06" hostname="chenliangdeMacBook-Pro.local" time="0.008">
   <properties/>
-  <testcase name="testElevatorSystemConstructor()" classname="ElevatorSystem.ElevatorSystemTest" time="0.014"/>
-  <system-out><![CDATA[1
-]]></system-out>
+  <testcase name="testElevatorSystemConstructor()" classname="ElevatorSystem.ElevatorSystemTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

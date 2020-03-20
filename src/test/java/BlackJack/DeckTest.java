@@ -13,4 +13,8 @@ public class DeckTest {
         Deck instance2 = Deck.getInstance();
         assertEquals(instance1, instance2);
     }
+
+    @Test
+    public void test_player(){
+    }
 }

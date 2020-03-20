@@ -66,6 +66,9 @@ public class Player {
             throw new DealCardToStopDealingPlayerException();
         }
         insertCard(deck.dealNextCard());
+        if (hand.isOut()){
+            stopDealing = true;
+        }
     }
 
     public void stopDealing() throws AleadyStoppedDealingException {

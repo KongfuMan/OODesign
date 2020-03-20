@@ -26,7 +26,11 @@ public class Restaurant {
         throw new NoTableException();
     }
 
-    public Order orderMeal(Party party, List<Meal> meals) throws NoTableException, TakeUnavailableTableException, NotEnoughSeatsException {
+    /**
+     * party make an order, restaurant generate the order for the party.
+     *
+     * */
+    public Order takeOrder(Party party, List<Meal> meals) throws NoTableException, TakeUnavailableTableException, NotEnoughSeatsException {
         Table table = findTable(party);
         table.takeSeats(party.getCapacity());
         table.markUnavailable();
@@ -54,7 +58,7 @@ public class Restaurant {
             total += meal.getPrice();
         }
         Table table = order.getTable();
-        table.markAvaiable();
+        table.markAvailable();
         return total;
     }
 }

@@ -30,4 +30,11 @@ public class Hand {
         }
         return total;
     }
+
+    public boolean isOut(){
+        if (getScore() > 21){
+            return true;
+        }
+        return false;
+    }
 }

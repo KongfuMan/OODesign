@@ -6,6 +6,8 @@ import Restanrant.Exceptions.TakeUnavailableTableException;
 public class Table {
     private boolean available;
     private int capacity;
+
+    // used for sharing table
     private int availableCnt;
 
     public Table(int capacity) {
@@ -18,7 +20,7 @@ public class Table {
         return available;
     }
 
-    public void markAvaiable(){
+    public void markAvailable(){
         available = true;
     }
 
