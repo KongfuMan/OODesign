@@ -46,12 +46,19 @@ public class Elevator {
      * add the request level to corresponding stop list
      */
     public void handleExternalRequest(ExternalRequest request) {
-        int reqLevel = request.getCurrenLevel();
-        if (request.getDir() == Direction.UP) {
-            upStops.offer(reqLevel);
-        } else {
-            downStops.offer(reqLevel);
+        int currLevel = request.getCurrenLevel();
+        if (request.getDir() == Direction.UP && status == UP
+            && currLevel >= getCurrentLevel()) {
+            upStops.offer(currLevel);
         }
+        if (request.getDir() == Direction.DOWN && status == DOWN
+            && currLevel <= getCurrentLevel()){
+            downStops.offer(currLevel);
+        }
+    }
+
+    private int getCurrentLevel(){
+        return  0;
     }
 
     /**
