@@ -5,3 +5,6 @@
 问你每一个product能不能送到的仓库，并给出理由，
 比如product A 和 仓库1，2，3，4，A不能送3，
 理由是3不能接受太重的product，而A过重。
+
+(Not solved perfectly):<br/>
+How to use the `Factory Pattern`?

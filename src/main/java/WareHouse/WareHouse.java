@@ -1,5 +1,7 @@
 package WareHouse;
 
+import WareHouse.Exceptions.ExceedsMaxSizeException;
+import WareHouse.Exceptions.ExceedsMaxWeightException;
 import WareHouse.Filters.IFilter;
 
 import java.util.ArrayList;
@@ -14,13 +16,12 @@ public class WareHouse {
         this.productList = new ArrayList<>();
     }
 
-    public void addProduct(IProduct product){
-        if (validateProduct(product)){
-            productList.add(product);
-        }
+    public void addProduct(IProduct product) throws ExceedsMaxWeightException, ExceedsMaxSizeException {
+        validateProduct(product);
+        productList.add(product);
     }
 
-    private boolean validateProduct(final IProduct product){
-        return this.filter.validate(product);
+    private void validateProduct(final IProduct product) throws ExceedsMaxWeightException, ExceedsMaxSizeException {
+        this.filter.validate(product);
     }
 }

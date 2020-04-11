@@ -1,8 +1,12 @@
 package WareHouse.Filters;
 
+import WareHouse.Exceptions.ExceedsMaxSizeException;
+import WareHouse.Exceptions.ExceedsMaxWeightException;
 import WareHouse.IProduct;
 
 public class WeightFilter implements IFilter {
+    private final static String EXCEEDS_MAX_WEIGHT_MSG = "Product weight (%s) exceeds max weight (%s)";
+
     private final int MAXWEIGHT;
     private IFilter filter;
 
@@ -16,13 +20,13 @@ public class WeightFilter implements IFilter {
     }
 
     @Override
-    public boolean validate(IProduct product) {
+    public void validate(IProduct product) throws ExceedsMaxSizeException, ExceedsMaxWeightException {
+        int prodWeight = product.getWeight();
         if (product.getWeight() > MAXWEIGHT){
-            return false;
+            throw new ExceedsMaxWeightException(String.format(EXCEEDS_MAX_WEIGHT_MSG, prodWeight, MAXWEIGHT));
         }
         if (this.filter != null){
-            return this.filter.validate(product);
+            this.filter.validate(product);
         }
-        return true;
     }
 }

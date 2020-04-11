@@ -13,16 +13,16 @@ public class Product implements IProduct{
 
     @Override
     public int getWeight() {
-        return 0;
+        return weight;
     }
 
     @Override
     public int getSize() {
-        return 0;
+        return size;
     }
 
     @Override
     public boolean isChemical() {
-        return false;
+        return isChemical;
     }
 }
