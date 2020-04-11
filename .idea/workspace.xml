@@ -2,29 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d48ddfd-f284-44b8-8767-e4e218c56b88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ElementaryOOD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cache/Cache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cache/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cache/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MovieTicketBooking/Hall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MovieTicketBooking/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MovieTicketBooking/MovieManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MovieTicketBooking/MoviePlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MovieTicketBooking/MovieTicketSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MovieTicketBooking/SearchCriteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MovieTicketBooking/Seat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TrafficLightSystem/Exceptions/EnterUnderRedLigthException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TrafficLightSystem/GreenState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TrafficLightSystem/IState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TrafficLightSystem/RedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TrafficLightSystem/TrafficLightSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TrafficLightSystem/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TrafficLightSystem/YellowState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TrafficLightSystem/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WareHouse/Filters/IFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WareHouse/Filters/IFilterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WareHouse/Filters/SizeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WareHouse/Filters/WeightFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WareHouse/IProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WareHouse/IProductFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WareHouse/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WareHouse/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WareHouse/WareHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WareHouse/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ElevatorSystem/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ElevatorSystem/Elevator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ElevatorSystem/Elevator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ElevatorSystem/Elevator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HotelReservation/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/HotelReservation/Hotel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HotelReservation/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/HotelReservation/Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HotelReservation/Reservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/HotelReservation/Reservation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/BlackJack/DeckTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/BlackJack/DeckTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/ElevatorSystem/ElevatorSystemTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/ElevatorSystem/ElevatorSystemTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/BlackJack.DeckTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ElevatorSystem.ElevatorSystemTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/BlackJack.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/ElevatorSystem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-BlackJack.DeckTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ElevatorSystem.ElevatorSystemTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -58,82 +74,105 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem/RedState.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/WareHouse/WareHouse.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding>
-                <element signature="e#176#177#0" expanded="true" />
-                <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem/Exceptions/EnterUnderRedLigthException.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/WareHouse/Filters/IFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="95">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem/WX20200329-173849.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/WareHouse/Filters/SizeFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem/GreenState.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/WareHouse/Filters/WeightFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+              <folding>
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/WareHouse/IProduct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/WareHouse/Product.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#103#104#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem/Vehicle.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/WareHouse/IProductFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem/TrafficLightSystem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+            <state relative-caret-position="38">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem/IState.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/WareHouse/Filters/IFilterFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="68" lean-forward="true" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+            <state relative-caret-position="38">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem/YellowState.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/WareHouse/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="266">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,21 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/BlackJack/PlayerStates/PlayerStopDealingState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BlackJack/Hand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BlackJack/Player.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VendingMachine/Item.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VendingMachine/CocaColaItemInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VendingMachine/ItemInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VendingMachine/PepsiColaItemInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VendingMachine/OrioCookieItemInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VendingMachine/Exception/NotEnoughStockException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VendingMachine/Stock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VendingMachine/Exception/ItemsAlreadySelected.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VendingMachine/States/IState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VendingMachine/States/CoinInsertedState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VendingMachine/States/HasSelectionState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VendingMachine/States/SoldState.java" />
         <option value="$PROJECT_DIR$/src/main/java/VendingMachine/Coin.java" />
         <option value="$PROJECT_DIR$/src/main/java/VendingMachine/States/NoSelectionState.java" />
         <option value="$PROJECT_DIR$/src/main/java/VendingMachine/VendingMachine.java" />
@@ -220,14 +244,28 @@
         <option value="$PROJECT_DIR$/src/main/java/TrafficLightSystem/YellowState.java" />
         <option value="$PROJECT_DIR$/src/main/java/TrafficLightSystem/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/main/java/TrafficLightSystem/GreenState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TrafficLightSystem/ReadMe.md" />
+        <option value="$PROJECT_DIR$/src/test/java/ElevatorSystem/ElevatorSystemTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WareHouse/ReadMe.md" />
+        <option value="$PROJECT_DIR$/src/main/java/WareHouse/Filters/IFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WareHouse/IProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WareHouse/IFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WareHouse/IProductFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WareHouse/IFilterFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WareHouse/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WareHouse/Filters/IFilterFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WareHouse/Filters/WeightFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WareHouse/Filters/FilterBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WareHouse/Filters/SizeFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WareHouse/WareHouse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WareHouse/main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="492" />
-    <option name="y" value="25" />
-    <option name="width" value="1487" />
-    <option name="height" value="986" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="809" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -243,6 +281,81 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Elementary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ElementaryOOD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Elementary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ElementaryOOD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Elementary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ElementaryOOD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Elementary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ElementaryOOD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Elementary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ElementaryOOD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="WareHouse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Elementary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ElementaryOOD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="WareHouse" type="462c0819:PsiDirectoryNode" />
+              <item name="Filters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Elementary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ElementaryOOD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Elementary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ElementaryOOD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Elementary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ElementaryOOD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="BlackJack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Elementary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ElementaryOOD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ElevatorSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -294,43 +407,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Elementary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ElementaryOOD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="Elementary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ElementaryOOD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Elementary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ElementaryOOD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="Elementary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ElementaryOOD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Elementary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ElementaryOOD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TrafficLightSystem" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,7 +443,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Hotel">
+  <component name="RunManager" selected="Gradle.DeckTest.testSingleton">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -394,32 +470,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeckTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;BlackJack.DeckTest&quot; --info" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="DeckTest.testSingleton" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;BlackJack.DeckTest.testSingleton&quot; --debug" />
+        <option name="scriptParameters" value="--tests &quot;BlackJack.DeckTest.testSingleton&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -450,6 +506,26 @@
           </list>
         </option>
         <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ElevatorSystemTest.dummy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ElevatorSystem.ElevatorSystemTest.dummy&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
@@ -501,18 +577,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Hotel" />
-      <item itemvalue="Gradle.DeckTest" />
-      <item itemvalue="Gradle.DeckTest.testSingleton" />
       <item itemvalue="Gradle.ElevatorSystemTest" />
       <item itemvalue="Gradle.ElevatorSystemTest.testElevatorSystemConstructor" />
+      <item itemvalue="Gradle.ElevatorSystemTest.dummy" />
+      <item itemvalue="Gradle.DeckTest.testSingleton" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DeckTest.testSingleton" />
+        <item itemvalue="Gradle.ElevatorSystemTest.dummy" />
         <item itemvalue="Application.Hotel" />
         <item itemvalue="Gradle.ElevatorSystemTest.testElevatorSystemConstructor" />
         <item itemvalue="Gradle.ElevatorSystemTest" />
-        <item itemvalue="Gradle.DeckTest" />
-        <item itemvalue="Gradle.DeckTest.testSingleton" />
       </list>
     </recent_temporary>
   </component>
@@ -530,24 +606,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ElevatorSystemTest_testElevatorSystemConstructor - 2020.03.10 at 22h 12m 32s.xml">
-      <configuration name="ElevatorSystemTest.testElevatorSystemConstructor" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ElevatorSystemTest - 2020.03.10 at 22h 13m 09s.xml">
-      <configuration name="ElevatorSystemTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="DeckTest - 2020.03.10 at 22h 13m 16s.xml">
-      <configuration name="DeckTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ElevatorSystemTest_testElevatorSystemConstructor - 2020.03.10 at 23h 06m 54s.xml">
-      <configuration name="ElevatorSystemTest.testElevatorSystemConstructor" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ElevatorSystemTest - 2020.03.10 at 23h 08m 22s.xml">
-      <configuration name="ElevatorSystemTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ElevatorSystemTest - 2020.03.10 at 23h 15m 05s.xml">
-      <configuration name="ElevatorSystemTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="ElevatorSystemTest - 2020.03.10 at 23h 15m 58s.xml">
       <configuration name="ElevatorSystemTest" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -560,6 +618,24 @@
     <history-entry file="ElevatorSystemTest_testElevatorSystemConstructor - 2020.03.10 at 23h 20m 45s.xml">
       <configuration name="ElevatorSystemTest.testElevatorSystemConstructor" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="ElevatorSystemTest_dummy - 2020.03.30 at 15h 19m 36s.xml">
+      <configuration name="ElevatorSystemTest.dummy" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ElevatorSystemTest_dummy - 2020.03.30 at 15h 19m 48s.xml">
+      <configuration name="ElevatorSystemTest.dummy" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ElevatorSystemTest_dummy - 2020.03.30 at 15h 20m 06s.xml">
+      <configuration name="ElevatorSystemTest.dummy" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ElevatorSystemTest_dummy - 2020.03.30 at 15h 20m 16s.xml">
+      <configuration name="ElevatorSystemTest.dummy" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ElevatorSystemTest_dummy - 2020.03.30 at 15h 20m 36s.xml">
+      <configuration name="ElevatorSystemTest.dummy" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DeckTest_testSingleton - 2020.03.30 at 15h 21m 00s.xml">
+      <configuration name="DeckTest.testSingleton" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -571,10 +647,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="492" y="25" width="1487" height="986" extended-state="0" />
+    <frame x="-1" y="23" width="1440" height="809" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21245675" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25107297" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -582,12 +658,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3529412" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.45948946" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.45861298" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32871014" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.08277405" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.37919462" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.28294036" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -601,148 +677,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/VendingMachine/States/CoinInsertedState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-            <element signature="e#1041#1042#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/VendingMachine/States/NoSelectionState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Restanrant/Meal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/VendingMachine/VendingMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2713">
-          <caret line="126" column="58" lean-forward="true" selection-start-line="126" selection-start-column="58" selection-end-line="126" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#1182#1183#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1360#1361#0" expanded="true" />
-            <element signature="e#1426#1427#0" expanded="true" />
-            <element signature="e#1484#1485#0" expanded="true" />
-            <element signature="e#1420#1421#0" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-            <element signature="e#1536#1537#0" expanded="true" />
-            <element signature="e#2135#2136#0" expanded="true" />
-            <element signature="e#2179#2180#0" expanded="true" />
-            <element signature="e#1760#1761#0" expanded="true" />
-            <element signature="e#1805#1806#0" expanded="true" />
-            <element signature="e#2239#2240#0" expanded="true" />
-            <element signature="e#2284#2285#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/VendingMachine/Coin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Restanrant/Party.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MeetingRoom/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MeetingRoom/Reservation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MeetingRoom/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MeetingRoom/Interval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="318" lean-forward="true" selection-start-line="318" selection-end-line="318" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="73" column="47" selection-start-line="73" selection-start-column="47" selection-end-line="73" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Restanrant/Restaurant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MeetingRoom/MeetingRoomSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Restanrant/Table.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -964,13 +898,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/MovieTicketBooking/MovieTicketSystem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -981,34 +909,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem/WX20200329-173646.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem/WX20200329-173646.png" />
     <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem/WX20200329-173849.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem/RedState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem/Exceptions/EnterUnderRedLigthException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem/TrafficLightSystem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem/GreenState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem/YellowState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="152">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding>
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="228">
+            <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BlackJack/DeckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1019,34 +962,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem/GreenState.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem/TrafficLightSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem/RedState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="247">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem/IState.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TrafficLightSystem/YellowState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ElevatorSystem/ElevatorSystemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WareHouse/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="76">
+            <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WareHouse/Filters/IFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WareHouse/IProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="68" lean-forward="true" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WareHouse/IProductFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WareHouse/Filters/WeightFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WareHouse/Filters/FilterBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#113#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WareHouse/Filters/SizeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WareHouse/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WareHouse/WareHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WareHouse/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WareHouse/Filters/IFilterFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
